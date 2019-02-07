@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rango'
+    'rango',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +127,6 @@ STATICFILES_DIRS=[STATIC_DIR, ]
 #Media files
 MEDIA_ROOT= MEDIA_DIR
 MEDIA_URL= '/media/'
+
+#Login
+LOGIN_URL = '/rango/login/'
